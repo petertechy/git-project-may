@@ -3,3 +3,25 @@ h1{
     color: green;
     font-size: 50px;
 }
+p{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    margin: 10px 30px;
+}
+button{
+    padding: 12px 28px;
+    border: none;
+    border-radius: 10px;
+    background-color: green;
+    font-size: 14px;
+    color: white;
+    transition: all 1s;
+}
+button:hover{
+    background-color: white;
+    border: 1px solid green;
+    color: green;
+}
