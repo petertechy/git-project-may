@@ -25,3 +25,20 @@ button:hover{
     border: 1px solid green;
     color: green;
 }
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-list{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.anchor{
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+}
